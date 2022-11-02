@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+ 
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .calculator {
+    height: 445px;
+    max-width: 460px;
+    border-radius: 4px;
+    background-color: #57606f;
+    border-radius: 20px;
+  }
+  
+  .output {
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  
+  .keys {
+    gap: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  button {
+    background-color: #ffffff;
+  }
+
+  
+  .keys button:first-child {
+    color: #ffffff;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #ff4757;
+  }
+
+  .keys button:nth-child(2) {
+    background-color: #ffa502;
+  }
+
+  .keys button:nth-child(3) {
+    background-color: #ffa502;
+  }
+
+  .keys button:nth-child(7) {
+    background-color: #ffa502;
+  }
+
+  .keys button:nth-child(11) {
+    background-color: #ffa502;
+  }
+
+  .keys button:nth-child(15) {
+    color: #ffffff;
+    grid-row: 4 / 6;
+    grid-column: 4 / 4;
+    background-color: #2ed573;
+    border-radius: 3px 3px 20px 3px;
+  }
+  
+  .keys button:nth-child(16) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 3px 3px 3px 20px;
+  }
+  
+  .input,
+  .result {
+    color: #ffffff;
+    height: 40px;
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  button {
+    border: none;
+    font-size: 28px;
+    min-width: 80px;
+    min-height: 65px;
+    border-radius: 3px;
+  }  
